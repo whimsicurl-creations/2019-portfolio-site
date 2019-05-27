@@ -150,6 +150,7 @@ section#projects .content-wrapper {
     width: 100%;
 }
 section#projects .section-header {
+    margin-top: 100px;
     margin-bottom: 15px;
 }
 .projects-wrapper {
