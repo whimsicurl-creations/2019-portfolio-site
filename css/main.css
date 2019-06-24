@@ -70,11 +70,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
 }
 .navlinks a {
+    font-family: 'McLaren', cursive;
     font-size: 18px;
     font-weight: bold;
     text-align: right;
     text-decoration: none;
-    margin: 5px;
+    margin: 5px 2px;
     color: #871277;
     border-bottom: 2px solid #fffefc;
 }
@@ -89,9 +90,8 @@ h1, h2, h3, h4, h5, h6 {
     /* display: flex; */
     display: none;
     position: absolute;
-    right: 85px;
+    right: 90px;
     top: 40px;
-    margin-bottom: 5px;
     z-index: 2;
 }
 .dropdown-content a {
@@ -101,7 +101,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #00a79d;
     text-decoration: none;
     text-align: right;
-    margin-right: 5px;
     border: 2px solid #fffefc;
 }
 .dropdown-content a:hover {
