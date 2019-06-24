@@ -88,6 +88,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #00a79d;
     border-bottom: 2px solid #00a79d;
 }
+#navbar .dropdownhidden {
+    position: absolute;
+    left: -9999px;
+}
+#navbar .dropdownshowing {
+    left: 0;
+    background: #fffefc;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 2px solid #fffefc;
+}
 
 /* Welcome Section */
 #welcome-section .content-wrapper {
