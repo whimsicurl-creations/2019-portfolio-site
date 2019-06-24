@@ -13,16 +13,18 @@
 <body>
     <navbar id="navbar">
         <a href="#welcome-section"><img id="logo-nav" src="img/wc-vector-color.png" alt="Whimsicurl Creations logo"></a>
-        <ul>
-            <li><a href="#welcome-section">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <ul>
-                <li><a href="work/index.html#webdev">Web Development</a></li>
-                <li><a href="work/index.html#design">Design</a></li>
-                <li><a href="work/index.html#crafts">Crafts</a></li>
-            </ul>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+        <div class="navlinks">
+            <a href="#welcome-section">Home</a>
+            <div class="dropdown">
+                <a href="#projects" class="droplink">Projects</a>
+                <div class="dropdown-content">
+                    <a href="work/index.html#crafts">Crafts</a>
+                    <a href="work/index.html#design">Design</a>
+                    <a href="work/index.html#webdev">Web Dev.</a>
+                </div>
+            </div>
+            <a href="#contact">Contact Me</a>
+        </div>
     </navbar>
     <section id="welcome-section">
         <div class="content-wrapper">
