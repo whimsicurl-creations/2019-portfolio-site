@@ -79,21 +79,39 @@ h1, h2, h3, h4, h5, h6 {
     color: #871277;
     border-bottom: 2px solid #fffefc;
 }
-/* .dropdown {
-    float: left;
-    overflow: hidden;
-} */
-.navlinks a:hover, .droplink:hover {
+.droplink {
+    display: flex;
+}
+.navlinks a:hover {
     color: #00a79d;
     border-bottom: 2px solid #00a79d;
 }
 .dropdown-content {
+    /* display: flex; */
     display: none;
     position: absolute;
-    background-color: #fffefc;
+    right: 85px;
+    top: 40px;
     margin-bottom: 5px;
-    width: 100%;
     z-index: 2;
+}
+.dropdown-content a {
+    background-color: #fffefc;
+    border-radius: 5px;
+    padding: 5px;
+    color: #00a79d;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 5px;
+    border: 2px solid #fffefc;
+}
+.dropdown-content a:hover {
+    background-color: #871277;
+    color: #fffefc;
+    border: 2px solid #871277;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 /*#navbar ul {
     width: 40%;
