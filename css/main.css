@@ -160,6 +160,15 @@ h1 {
 }
 
 /* Three Project Section */
+.work-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+    margin: 5px;
+}
 .work-tile img {
     max-width: 200px;
     border: 2px solid #00a79d;
