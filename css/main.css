@@ -167,7 +167,7 @@ h1 {
     align-items: center;
     max-width: 250px;
     text-align: center;
-    margin: 5px;
+    margin: 5px 25px;
 }
 .work-tile img {
     max-width: 200px;
@@ -175,6 +175,9 @@ h1 {
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(128,128,128,0.7);
     box-sizing: border-box;
+}
+.padding-img {
+    padding: 10px 5px;
 }
 
 /* Projects Section */
