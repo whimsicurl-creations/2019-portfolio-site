@@ -252,14 +252,14 @@ section#projects .section-header {
     background-color: #7fcbc5;
 }
 #social-icons-wrapper {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     padding-bottom: 25px;
 }
 .social-icon img {
-    max-width: 75px;
+    max-width: 65px;
 }
 
 /* ===== MEDIA QUERIES ===== */
