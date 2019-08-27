@@ -164,6 +164,10 @@ h1 {
 }
 
 /* Three Project Section */
+section#work {
+    background: #871277;
+    width: 100%;
+}
 .work-tile {
     display: flex;
     flex-direction: column;
@@ -171,7 +175,10 @@ h1 {
     align-items: center;
     max-width: 250px;
     text-align: center;
-    margin: 5px 25px;
+    margin: 5px 25px 25px 25px;
+}
+.work-tile h4, .work-tile a {
+    color: #fff;
 }
 .work-tile img {
     max-width: 200px;
@@ -180,6 +187,7 @@ h1 {
     box-shadow: 3px 3px 5px rgba(128,128,128,0.7);
     box-sizing: border-box;
     margin-bottom: 10px;
+    background: #fff;
 }
 .padding-img {
     padding: 10px 5px;
